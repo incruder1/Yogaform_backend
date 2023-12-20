@@ -22,5 +22,5 @@ const pool = new Pool({
   password: process.env.password,
   port: process.env.PGPORT,
 });
-console.log(process.env.PGPORT+"       dsadasdasda");
+console.log(process.env.PGPORT+"   Port");
 export default pool;
