@@ -6,7 +6,7 @@ import dotenv from "dotenv";
 import  Login  from"./routes/login.js";
 import { SignUp } from './routes/SignUp.js';
 const app = express();
-const port = 3001;
+const port = process.env.PORT||3001;
 dotenv.config();
 
 
