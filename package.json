@@ -7,8 +7,8 @@
  "scripts": {
     "start": "node server.js",
     "dev":"node server.js",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
+    "build": "npm run build",
+    "test": "npm run test",
     "eject": "react-scripts eject"
   }
 }
