@@ -1,18 +1,13 @@
 
 import { comparePassword, hashPassword } from "../helper/authHelper.js";
 import pool from "../config/db.js"
-import UUID  from 'uuid-int';
 export  const SignUp = async (req, res) => {
   try {
     const {name, email,password,  batch, age } = req.body;
     
     
-    const id = 0;
-
-    const generator = UUID(id);
-    
-    const uuid = generator.uuid();
-    console.log(uuid+"Dasdasdasdasd asd sad");
+  
+ 
     console.log(email);
     console.log(password);
     
